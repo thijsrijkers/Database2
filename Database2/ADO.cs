@@ -10,7 +10,7 @@ namespace Database2
     {
         public void ADO_Test(int counter)
         {
-            string DBconn = @"Server=OBSIDIANGTX1070; Database=Databases2_Databases; Integrated Security=true";
+            string DBconn = @"Server=OBSIDIANGTX1070\SQLEXPRESS; Database=Databases2_Databases; Integrated Security=true";
 
             using (var conn = new SqlConnection(DBconn))
             {

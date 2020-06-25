@@ -11,8 +11,14 @@ namespace Database2
         {
             ADO adoTest = new ADO();
             adoTest.ADO_Test(10);
-            EntityFunction test = new EntityFunction();
-            test.Entity_Test(1);
+
+            EntityFunction entityTest = new EntityFunction();
+            entityTest.Entity_Test(10);
+
+            NoSQL NoSQLtest = new NoSQL();
+            NoSQLtest.NOSQL_Test(10);
+
+            Console.ReadKey(true);
         }
     }
 }
